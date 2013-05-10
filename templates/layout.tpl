@@ -20,13 +20,13 @@
 <nav>
 <a href='/'>Home</a>
 <a href='/aboutus'>About Us</a>
-<a href='staff'>Administration</a>
-<a href='schedulebackout'>Students</a>
+<a href='/staff'>Staff</a>
+<a href='/'>Students</a>
 <a href='/'>Counseling</a>
 <a href='/'>Academics</a>
 <a href='/'>Activities</a>
 <a href='/'>Parents</a>
-<a href='calendar'>Calendar</a>
+<a href='/calendar'>Calendar</a>
 </nav>
 </header>
 

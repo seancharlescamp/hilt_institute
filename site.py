@@ -13,4 +13,9 @@ def index():
     return template('templates/index.tpl')
 
 
-run(host='0.0.0.0', port=8080)
+@route('/staff')
+def staff():
+    return template('templates/staff.tpl')
+
+
+run(host='0.0.0.0', port=8081)
