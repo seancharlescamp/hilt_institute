@@ -2,7 +2,6 @@ body {
     margin: 40px;
     padding: 0;
     background-color: white;
-    border: 1px solid #808080;
 }
 header {
     height: 250px;
@@ -20,14 +19,14 @@ header h1 {
     font-size: 5em;
     margin-left: 250px;
     padding-top: 0;
-    margin-top: -50px;
+    margin-top: -55px;
     text-align: left;
     color: silver;
 }
 header h2 {
     font-size: 2.8em;
     margin-left: 250px;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 0;
     color: silver;
 }
@@ -35,47 +34,37 @@ header h3 {
     font-size: 1.5em;
     margin-left: 250px;
     padding-top: 0px;
-    margin-top: -50px;
+    margin-top: -30px;
     text-align: left;
     color: silver;
 }
-div p {
-    text-align: center;
-    margin: 60px;
-    border: 3px solid purple;
-    border-radius: 10px;
-    margin-left: 50px;
-    margin-right: 100px;
-    font-size:1.2em;
-    background-color: #48036F;
-    color: silver;
-}
-h1 {
-    color: #03426A;
-    margin-left: 50px;
-}    
-nav {
+header nav {
     display: block;
     text-align: center;
 }
-nav a {
+header nav a {
     padding: 10px;
     border: 1px dotted #777;
     color: #333333;
     background-color: #B964D4 ;
     text-align: center;
 }
-nav a:hover {
+header nav a:hover {
     background:#969;
     color:#000;
 }
-section#intro {
-    height: 500px;
+section {
+    padding: 0;
+    min-height: 150px;
+    border: 1px solid #808080;
 }
 footer {
-    margin-top: 50px;
-    padding: 10px;
-    text-align: center;
+    display: table;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-top: -10px;
 }
 footer a, footer a:visited {
     color: #B964D4;
