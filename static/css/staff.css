@@ -1,0 +1,20 @@
+section h1 {
+    color: #48036F;
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 3em;
+    font-family: sans-serif, cursive;
+}
+section ul#staff {
+    list-style-type: none;
+    margin-left: 5px;
+    margin-top: -15px;
+}
+section ul#staff li {
+    margin-top: 5px;
+    font-size: 1.5em;
+}
+section ul#staff a, section ul#staff a:visited {
+    text-decoration: none;
+    color: #0042A9;
+}
