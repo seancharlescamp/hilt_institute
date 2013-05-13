@@ -4,16 +4,16 @@
 <meta charset="utf-8">
 <title>{{title or 'HILT Institute'}}</title>
 <style type="text/css">
-@import url(static/css/main.css);
+@import url(/static/css/main.css);
 %for stylesheet in addstyles:
-@import url(static/css/{{stylesheet}});
+@import url(/ static/css/{{stylesheet}});
 %end
 </style>
 </head>
 
 <body>
 <header>
-<img src="static/images/logo.png" alt="HILT Institute">
+<img src="/static/images/logo.png" alt="HILT Institute">
 <h2>Arlington Career Center</h2>
 <h1>HILT Institute</h1>
 <h3>Celebrating Cultures, Languages &amp; Dreams</h3>
