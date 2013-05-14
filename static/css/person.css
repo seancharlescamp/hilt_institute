@@ -1,4 +1,24 @@
 p#description img {
     float: left;
-    width: 120px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 2px;
+    margin-right: 12px;
+    margin-bottom: 5px;
+}
+p#description {
+    border: 1px solid #444;
+    border-radius: 10px;
+    background-color: #E6E6FA;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 40px;
+    color: #8B008B;
+}
+section h1, section h2 {
+    margin-left: 10px;
+}
+section h1 {
+    text-transform: uppercase;
+    font-size: x-large;
 }
