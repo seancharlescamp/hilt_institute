@@ -34,6 +34,9 @@ valuable career and technical skills.
 <li>Emergency Medical Tech*+</li>
 <li>Engineering+</li>
 <li>Forensic Technology</li>
-
+<li>Pharmacy Tech*</li>
+<li>physical Therapy/Sports Medicine</li>
+<li>TV Production/Multimedia</li>
+<li>Web Computer Graphics</li>
 </ul>
 %rebase templates/layout.tpl title='HILT Institute Home Page', addstyles=['index.css']
