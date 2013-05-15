@@ -32,5 +32,8 @@ valuable career and technical skills.
 <li>Early Childhood Ed.*+</li>
 <li>Electricity*</li>
 <li>Emergency Medical Tech*+</li>
+<li>Engineering+</li>
+<li>Forensic Technology</li>
+
 </ul>
 %rebase templates/layout.tpl title='HILT Institute Home Page', addstyles=['index.css']
