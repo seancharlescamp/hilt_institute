@@ -1,4 +1,8 @@
-table {
+#awardstable {
     margin-left: auto;
     margin-right: auto;
+    padding:5px;
+}
+#awardstable {
+    padding: 10px;
 }
