@@ -1,10 +1,11 @@
 import os, pickle, argparse
 from bottle import route, run, template, static_file
 
-parser = argparse.ArgumentParser(description='A bottle server for the HILT Institute')
-parser.add_argument('-p','--port', type=int, help="The port number the server will run on")
+description = 'A bottle server for the HILT Institute'
+parser = argparse.ArgumentParser(description)
+parser.add_argument('-p','--port', type=int,
+                    help="The port number the server will run on")
 args = parser.parse_args()
-
 port = args.port if args.port else 8080
 
 @route('/static/<filepath:path>')

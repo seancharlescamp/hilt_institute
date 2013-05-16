@@ -1,0 +1,18 @@
+p#mission {
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #000;
+    font-size: large;
+}
+div.subsection {
+    margin: 30px;
+    padding: 20px;
+    border: 1px dotted #777;
+    width: 400px;
+}
+div.subsection ul {
+    list-style-type: none;
+}
+div.subsection li {
+    margin-top: 5px;
+}
