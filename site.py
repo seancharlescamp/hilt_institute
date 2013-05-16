@@ -31,4 +31,9 @@ def staff(name=None):
                     description=staff_dict[name]['description'])
 
 
+@route('/awards')
+def awards():
+    return template('templates/awards.tpl')
+
+
 run(host='0.0.0.0', port=port)
