@@ -1,13 +1,3 @@
-<!-- Austin, put your awards table here... -->
-<p>Austin's Awards Page</p>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title></title>
-</head>
-<body>
-
 <table id="awardstable" border="5">
 <tr>
 <th>Awards</th>
@@ -57,9 +47,5 @@
 <td>Cody</td>
 <td>Adam</td>
 </tr>
-
 </table>
-</body>
-</html>
-
-%rebase templates/layout.tpl title='HILT Institute Student Awards', addstyles=['awards.css']
+%rebase templates/layout.tpl title='HILT Institute Student Awards', addstyles=['students.css']
