@@ -5,10 +5,7 @@ parser = argparse.ArgumentParser(description='A bottle server for the HILT Insti
 parser.add_argument('-p','--port', type=int, help="The port number the server will run on")
 args = parser.parse_args()
 
-if args.port:
-    port = args.port
-else:
-    port = 8080
+port = args.port if args.port else 8080
 
 @route('/static/<filepath:path>')
 def server_static(filepath):
