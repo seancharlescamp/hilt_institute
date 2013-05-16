@@ -1,7 +1,8 @@
 <p id="mission">
 The HILT Institute is a program is for HILT / HILTEX students ages 21 years and
 under who are interested in completing a high school diploma while learning
-valuable career and technical skills.
+valuable career and technical skills.  This web site was made by students in
+our program.
 </p>
 
 <div class="subsection">

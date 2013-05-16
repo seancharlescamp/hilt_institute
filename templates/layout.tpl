@@ -19,13 +19,13 @@
 <h3>Celebrating Cultures, Languages &amp; Dreams</h3>
 <nav>
 <a href='/'>Home</a>
-<a href='/aboutus'>About Us</a>
-<a href='/staff'>Staff</a>
+<a href='/about'>About Us</a>
 <a href='/schedule'>Schedule</a>
-<a href='/awards'>Student Achievemnt</a>
-<a href='/activities'>Activities</a>
+<a href='/staff'>Staff</a>
+<a href='/students'>Students</a>
 <a href='/academics'>Academics</a>
 <a href='/cte'>CTE</a>
+<a href='/activities'>Activities</a>
 <a href='/calendar'>Calendar</a>
 <a href='/contact'>Contact</a>
 </nav>
