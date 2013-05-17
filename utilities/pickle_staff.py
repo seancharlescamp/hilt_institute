@@ -7,7 +7,7 @@ f.close()
 staff = raw_data.split('=++=')
 
 for i, member in enumerate(staff):
-    staff[i] = member.split('++')
+    staff[i] = member.split('-+-')
 
 staff_dict = {}
 
