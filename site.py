@@ -30,10 +30,24 @@ def staff(name=None):
 
     if not name:
         return template('templates/staffdir.tpl')
-    return template('templates/staffmember.tpl', name=name,
-                    full_name=staff_dict[name]['full_name'],
-                    position=staff_dict[name]['position'],
-                    description=staff_dict[name]['description'])
+    elif name not in staff_dict:
+        name = 'frankenstein'
+        full_name = 'Mr. Monster Frankenstein'
+        position = 'Lead Disciplinarian'
+        description = """
+Mr. Frankenstein comes to the HILT Institute from his native Transilvania,
+where he worked as an assistant to his father in his science lab.  In addition
+to roaming the countryside terrifying the villiagers, Mr. Frankenstein's
+hobbies include cooking, knitting, and grave robbing.
+"""
+        return template('templates/staffmember.tpl', name=name,
+                        full_name=full_name, position=position,
+                        description=description)
+    else:
+        return template('templates/staffmember.tpl', name=name,
+                        full_name=staff_dict[name]['full_name'],
+                        position=staff_dict[name]['position'],
+                        description=staff_dict[name]['description'])
 
 
 @route('/students')
