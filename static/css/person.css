@@ -7,7 +7,7 @@ p#description img {
     margin-bottom: 5px;
 }
 p#description {
-    min-height: 100px;
+    min-height: 150px;
     border: 1px solid #444;
     border-radius: 10px;
     background-color: #E6E6FA;
