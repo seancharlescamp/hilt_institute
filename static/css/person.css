@@ -1,24 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Carrois+Gothic+SC);
 p#description img {
     float: left;
     width: 100px;
-    border-radius: 10px;
+    padding-right: 20px;
     margin-left: 2px;
-    margin-right: 12px;
     margin-bottom: 5px;
 }
 p#description {
+    min-height: 150px;
     border: 1px solid #444;
     border-radius: 10px;
     background-color: #E6E6FA;
-    padding: 10px;
+    font-size: large;
+    padding: 30px;
     margin: 10px;
     margin-bottom: 40px;
     color: #8B008B;
+    text-align: justify;
 }
 section h1, section h2 {
+    color: #0042A9;
     margin-left: 10px;
+    font-family: 'Carrois Gothic SC', sans-serif;
 }
 section h1 {
     text-transform: uppercase;
     font-size: x-large;
+    margin-bottom: -20px;
 }
